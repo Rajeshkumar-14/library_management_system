@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "library management system"
+version = "0.1.0"
+description = "Library Management System Backend using Python312 and Djangorestframework."
+authors = ["Rajesh Kumar <Rajeshrk233444@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+django = "^5.0.6"
+djangorestframework = "^3.15.1"
+django-filter = "^24.2"
+django-jazzmin = "^3.0.0"
+django-cors-headers = "^4.3.1"
+django-environ = "^0.11.2"
+djangorestframework-simplejwt = "^5.3.1"
+celery = "^5.4.0"
+pillow = "^10.3.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
