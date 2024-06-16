@@ -42,7 +42,7 @@ Follow these steps to set up and run the frontend locally:
     ```
 
 - This command starts the development server. By default, it runs at [localhost:5173](http://http://localhost:5173/).
-⚠️**Warning**: Make sure it runs at [localhost:5173](http://http://localhost:5173/). If not, you need to make modifications in the backend's settings.py.
+- ⚠️**Warning**: Make sure it runs at [localhost:5173](http://http://localhost:5173/). If not, you need to make modifications in the backend's settings.py.
 
 4. **Accessing the Application:**
 
