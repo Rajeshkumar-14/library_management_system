@@ -6,7 +6,7 @@ authors = ["Rajesh Kumar <Rajeshrk233444@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.12"
+python = "^3.13"
 django = "^5.0.6"
 djangorestframework = "^3.15.1"
 django-filter = "^24.2"
