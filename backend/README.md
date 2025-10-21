@@ -39,6 +39,12 @@ Welcome to Library Management System project, built with React.js and Django Res
      EMAIL_PORT=2525,
      EMAIL_HOST_USER=your_username,
      EMAIL_HOST_PASSWORD=your_password,
+
+     DB_NAME=your_db_name,
+     DB_USER=your_db_user,
+     DB_PASSWORD=your_db_password,
+     DB_HOST=your_db_host,
+     DB_PORT=your_db_port
      ```
 
 - Remove spaces between the variable and equals and the value to avoid errors while copying from the website, also refer `.env.example` file.
@@ -84,7 +90,7 @@ Welcome to Library Management System project, built with React.js and Django Res
     python manage.py runserver
   ```
 8. **Accessing the Admin Dashboard:**
-    
+
 - You can access the Django admin dashboard at [localhost:8000/admin/](http://localhost:8000/admin/) to manage your data. Ensure you have registered a user or created a superuser using the command `python manage.py createsuperuser`
 
 ## Contributing
